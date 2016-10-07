@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:scrollbarStyle="insideInset"
+    android:scrollbars="none"
+    android:scrollIndicators="none">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+         >
+   <!-- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:weightSum="1">  -->
+        <!--  <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/mostrar"
+              android:text="new Text"/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/mostrar2"
+              android:text="new Text2"
+              android:layout_marginTop="50dp"
+              android:layout_marginLeft="-50dp" /> -->
+
+        <ImageView
+            android:layout_width="385dp"
+            android:layout_height="214dp"
+            android:id="@+id/imageView2"
+            android:background="@drawable/n16_poster_1x" />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageView4"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/comida"
+            android:layout_marginTop="20dp" />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageView5"
+            android:layout_gravity="right"
+            android:background="@drawable/construcciones"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-110dp" />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageView6"
+            android:background="@drawable/entretenimiento"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp" />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageView7"
+            android:background="@drawable/deportes"
+            android:layout_gravity="right"
+            android:layout_marginTop="-110dp"
+            android:layout_marginRight="10dp" />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageView9"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/nightlife" />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageView8"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-110dp"
+            android:background="@drawable/medicina" />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageView10"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp" />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageView11"
+            android:layout_gravity="right"
+            android:layout_marginTop="-110dp"
+            android:layout_marginRight="10dp" />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageView12"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp" />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageView13"
+            android:layout_gravity="right"
+            android:layout_marginTop="-110dp"
+            android:layout_marginRight="10dp" />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageView14"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp" />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageView15"
+            android:layout_gravity="right"
+            android:layout_marginTop="-110dp"
+            android:layout_marginRight="10dp" />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageView16"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:baselineAlignBottom="true" />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageView17"
+            android:layout_gravity="right"
+            android:layout_marginTop="-110dp"
+            android:layout_marginRight="10dp" />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageView18"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp" />
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageButton"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-110dp"
+            android:adjustViewBounds="true" />
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+

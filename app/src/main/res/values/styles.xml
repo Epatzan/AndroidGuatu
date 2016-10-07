@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme.
+    <style name="AppTheme2" parent="Theme.AppCompat.NoActionBar"> -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!-- <item name="colorPrimary">@color/colorPrimary</item> -->
+        <item name="colorPrimary">@color/Guatuneed</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#FCBF09</item>
+        <item name="android:textColorHint">@color/Trasparente</item>
+
+
+    </style>
+
+    <style name="AppThemeActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/Guatuneed</item>
+        <item name="actionBarSize">254dp</item>
+        <item name="android:textColorHint">@color/Trasparente</item>
+    </style>
+
+    <style name="AppThemeNotitle" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorHint">@color/Trasparente</item>
+    </style>
+
+    <style name="CustomFbButton">
+        <item name="android:layout_height">300dp</item>
+        <item name="android:layout_width">150dp</item>
+    </style>
+
+    <style name="AppThemeNotitle.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppThemeNotitle.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:scrollbarStyle="insideInset"
+    android:scrollbars="none"
+    android:scrollIndicators="none">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <!-- <ListView
+        android:id="@+id/mi_lista"
+        android:layout_width="312dp"
+        android:layout_height="318dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="-50dp" /> -->
+
+    <ImageView
+        android:layout_width="385dp"
+        android:layout_height="214dp"
+        android:id="@+id/imageView3"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/nave"
+        android:layout_marginLeft="0dp"
+        android:layout_weight="0.02" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Buses"
+        android:id="@+id/textView" />
+
+    <!-- Primera Imagen-->
+
+
+
+
+    <LinearLayout android:layout_width="317dp"
+        android:layout_height="72dp"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:clickable="true"
+        android:id="@+id/ly1"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="20dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/construcciones"
+            android:layout_gravity="bottom" />
+
+        <TextView
+            android:id="@+id/texto_principal2"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="50dp"
+            android:padding="2dp"
+            android:textColor="#489e37"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-60dp" />
+
+
+
+    </LinearLayout>
+    <!--Segunda Imagen -->
+    <LinearLayout android:layout_width="317dp"
+        android:layout_height="72dp"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:clickable="true"
+        android:id="@+id/ly2"
+        android:layout_marginLeft="20dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/comida"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/texto_principal"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="50dp"
+            android:padding="2dp"
+            android:textColor="#489e37"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-60dp" />
+
+
+
+    </LinearLayout>
+
+    <!--Tercera Imagen -->
+    <LinearLayout android:layout_width="317dp"
+        android:layout_height="72dp"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:clickable="true"
+        android:id="@+id/ly3"
+        android:layout_marginLeft="20dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/deportes"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="0dp" />
+
+        <TextView
+            android:id="@+id/texto_principal3"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="50dp"
+            android:padding="2dp"
+            android:textColor="#489e37"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-60dp" />
+
+
+
+    </LinearLayout>
+    <!-- Comidas-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Comida"
+        android:id="@+id/textView2"
+        android:layout_weight="0.02" />
+    <!-- Primera Imagen-->
+
+
+
+
+    <LinearLayout android:layout_width="317dp"
+        android:layout_height="72dp"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:clickable="true"
+        android:id="@+id/ly4"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="20dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/comida_image2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/construcciones"
+            android:layout_gravity="bottom" />
+
+        <TextView
+            android:id="@+id/comida_texto_principal"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="50dp"
+            android:padding="2dp"
+            android:textColor="#489e37"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-60dp" />
+
+
+
+    </LinearLayout>
+    <!--Segunda Imagen -->
+    <LinearLayout android:layout_width="317dp"
+        android:layout_height="72dp"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:clickable="true"
+        android:id="@+id/ly5"
+        android:layout_marginLeft="20dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/comida_profile_image2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/comida"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/comida_texto_principal2"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="50dp"
+            android:padding="2dp"
+            android:textColor="#489e37"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-60dp" />
+
+    </LinearLayout>
+    <!-- Buses-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Servicios"
+        android:id="@+id/textView3"
+        android:layout_weight="0.02" />
+    <LinearLayout android:layout_width="317dp"
+        android:layout_height="72dp"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:clickable="true"
+        android:id="@+id/ly6"
+        android:layout_marginLeft="20dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/buses_profile_image2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/comida"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/buses_texto_principal2"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="50dp"
+            android:padding="2dp"
+            android:textColor="#489e37"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-60dp" />
+
+    </LinearLayout>
+
+
+    <!-- -->
+
+
+
+    <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/texto2"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button2"
+        android:layout_gravity="bottom" /> -->
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="guatuneed.klaser.com.guatuneed">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeNotitle">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".Welcome"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+       <activity
+
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+           android:theme="@style/com_facebook_activity_theme" />
+           <!-- android:theme="@android:style/Theme.Translucent.NoTitleBar" -->
+
+
+
+
+
+        <activity
+            android:name="klaser.com.guatuneed.home.home"
+            android:theme="@style/AppTheme" />
+        <activity android:name="klaser.com.guatuneed.login.Login" />
+        <activity android:name="klaser.com.guatuneed.login.Recovery" />
+        <activity android:name="klaser.com.guatuneed.login.SignIn" />
+        <activity android:name="klaser.com.guatuneed.login.SignUp" />
+        <activity
+            android:name="klaser.com.guatuneed.single.tabs.single"
+            android:label="@string/title_activity_single"
+            android:theme="@style/AppThemeActionBar"></activity>
+    </application>
+
+</manifest>

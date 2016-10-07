@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GuatUneed</string>
+    <string name="facebook_app_id">799886733477858</string>
+    <string name="title_activity_single">"single"</string>
+</resources>
